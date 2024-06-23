@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:iconifiedByDefault="false"
+        android:queryHint="请输入搜索内容" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/rv_color"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="20dp"
+        android:longClickable="true"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_person_add_black_48dp"
+        app:backgroundTint="#0099CC"
+        app:elevation="20dp"
+        app:pressedTranslationZ="5dp"
+        app:rippleColor="#0066FF" />
+
+    <com.lzj.sidebar.SideBarLayout
+        android:id="@+id/sidebar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        app:sidebarSelectTextColor="@color/hotpink"
+        app:sidebarSelectTextSize="12sp"
+        app:sidebarUnSelectTextColor="@color/colorPrimary"
+        app:sidebarUnSelectTextSize="10sp"
+        app:sidebarWordBackground="@drawable/sort_text_bg"
+        app:sidebarWordTextColor="@color/darkred"
+        app:sidebarWordTextSize="45sp">
+
+    </com.lzj.sidebar.SideBarLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/call_item"
+        android:title="dial"/>
+		
+    <item
+        android:id="@+id/detail_item"
+        android:title="detail"/>
+
+    <item
+        android:id="@+id/modify_item"
+        android:title="edit"/>
+		
+    <item
+        android:id="@+id/delete_item"
+		android:title="delete"/>
+
+</menu>

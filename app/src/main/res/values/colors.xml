@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5E5B5E</color>
+    <color name="colorPrimaryDark">#515051</color>
+    <color name="colorAccent">#5C5A5C</color>
+	<color name="white">#ffffff</color>
+	<color name="reveal_color">#d3d3d3</color>
+
+    <color name="lightsalmon">#FFA07A</color>
+    <!-- 亮肉色 -->
+    <color name="darkorange">#FF8C00</color>
+    <!-- 暗桔黄色 -->
+    <color name="coral">#FF7F50</color>
+    <!-- 珊瑚色 -->
+    <color name="hotpink">#FF69B4</color>
+    <color name="darkred">#8B0000</color>
+
+    <color name="c2b2b">#2B2B2B</color>
+    <color name="gray99">#999999</color>
+    <color name="c3d3d">#3D3D3D</color>
+
+
+    <color name="bg">#FFFFFF</color>
+
+    <color name="rv_color">#FFFFFF</color>
+    <color name="input_color">#000000</color>
+    <color name="sidebar_color">#9c646060</color>
+
+    <color name="card_bg_color">#ffffff</color>
+    <!--文字颜色-->
+    <color name="color_txt">#000000</color>
+</resources>
